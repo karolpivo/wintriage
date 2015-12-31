@@ -30,7 +30,12 @@ flags to execute, I found that it still required some education and explanation 
 WinTriage does not require any flags. It can be run by simple right click run as administrator. Additionally, further Windows specific
 functionality will be implemented in the future. 
 
-# Details
+# Usage details
+
+WinTriage must be run as administrator. There are two ways to run it:
+
+1. Right click and select "run as administrator" - this will collect all info except recently created and modified files
+2. Open command prompt (CMD must be launched as administrator) and execute "wintriage.exe -d 12/121/2015" - this will collect all info including files created / modified after 12/12/2015
 
 ```
 Usage: WinTriage.exe [options]
