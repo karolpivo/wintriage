@@ -55,9 +55,7 @@ Date must be specified in the format matching computer date format settings dd/m
 
 # Creating Windows executable
 
-Python is not usually on Windows. Installing any software as part of Incident Response is not ideal first step!
-
-The best option is to covert the python script to Windows EXE using py2exe - http://www.py2exe.org/
+Python is not usually installed on Windows. The best option is to covert the python script to Windows EXE using py2exe - http://www.py2exe.org/
 py2exe is a Python Distutils extension which converts Python scripts into executable Windows programs, able to run without requiring a Python installation.
 
 1. Download and install py2exe - http://sourceforge.net/projects/py2exe/files/py2exe/ 
